@@ -114,7 +114,7 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
-<H3>Program:</H3> 
+## Program:
 ```
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -165,7 +165,7 @@ predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
 ```
-<H3>Output:</H3>
+## Output:
 ![image](https://github.com/sivaram-R/Ex-4-NN/assets/121165794/e40df200-f430-462f-b8e1-1a1da0081c0a)
 ![image](https://github.com/sivaram-R/Ex-4-NN/assets/121165794/dcc31482-0165-41ed-a3f5-73cf8349591b)
 
